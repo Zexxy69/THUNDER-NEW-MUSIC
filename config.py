@@ -28,7 +28,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5220510156))
+OWNER_ID = int(getenv("OWNER_ID", 6977148345))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -45,8 +45,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/stylox_chat")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/stylox_chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+wC39MCf2vHU0ODJl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/dexterkagrouphaibsdk")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -84,16 +84,16 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/9ae01efa2bde88f821e3e.jpg"
+    "START_IMG_URL", "https://graph.org/file/afdd689088b73ba904f25.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/f72b244cc123526589831.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/2e2f78610814092d61103.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+STATS_IMG_URL = "https://graph.org/file/afdd689088b73ba904f25.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/afdd689088b73ba904f25.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+STREAM_IMG_URL = "https://graph.org/file/afdd689088b73ba904f25.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/ce5ffb3d5f383c781f234.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
